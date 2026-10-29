@@ -260,7 +260,7 @@ with col_progreso:
  st.progress(progreso)
 with col_numero:
  st.markdown(
- f"*{indice + 1} de {len(DERECHOS)}*"
+ f"**{indice + 1} de {len(DERECHOS)}**"
  )
 # --------------------------------------------------
 # Tarjeta principal
